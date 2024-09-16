@@ -61,6 +61,7 @@ img.foods:hover{
 }
 
 ul {
+    text-align: center;
     color: white;
     padding: 10px 0;
 }
@@ -69,11 +70,12 @@ li.elsoli{
     list-style: none;
 }
 
-p#leiras {
+p.leiras {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     text-indent: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .hozzavalok{
@@ -123,4 +125,20 @@ div.food{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: gray;
+    padding: .5rem;
+    border-radius: 10px;
+    margin-inline: auto;
+    border: none;
+    font-family: "Merienda", cursive;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    width: max-content;
 }
